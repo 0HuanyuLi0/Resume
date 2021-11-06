@@ -1,3 +1,5 @@
+
+
 body {
   /* width: 210mm; */
   height: auto;
@@ -22,7 +24,7 @@ h3 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.8rem;
 }
 
@@ -53,17 +55,22 @@ p {
 }
 
 .skills,
-.education {
+.education, .interest {
 
   /* margin: 20px 0 20px 20px; */
-  margin: 1rem 0 1rem 1rem;
+  margin: 3rem 0 1rem 1rem;
   border-top: 2px solid white;
 }
 
 .education li {
   /* line-height: 1rem; */
   margin-bottom: 2rem;
+}
 
+
+
+.skills li,.interest li{
+  margin-bottom: 1.5rem;
 }
 
 .left h1 {
@@ -88,8 +95,8 @@ p {
   border-radius: 20%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1rem;
-  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 10rem;
 }
 
 .right {
@@ -123,13 +130,18 @@ p {
 
 .summary,
 .projects,
-.work {
+.work, .techskills {
   margin: 1rem 0 1rem 0;
   border-top: 2px solid #38A3A5;
   line-height: 1.8rem;
 }
 
 .summary ul,
-.projects ul {
+.projects ul, .techskills ul {
   margin-left: 2rem;
 }
+
+.projects li, .lastli, .techskills li{
+  margin-bottom:1.5rem ;
+}
+
