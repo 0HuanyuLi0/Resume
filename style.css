@@ -70,7 +70,7 @@ p {
 
 
 .skills li,.interest li{
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .left h1 {
@@ -116,7 +116,7 @@ p {
 }
 
 .profile h1 {
-  font-size: 3.5rem;
+  /* font-size: 3.5rem; */
   color: #38A3A5;
   margin-bottom: 2rem;
 }
@@ -137,11 +137,21 @@ p {
 }
 
 .summary ul,
-.projects ul, .techskills ul {
-  margin-left: 2rem;
+.projects ul, .techskills ul, .work ul{
+  margin-left: 1rem;
 }
 
 .projects li, .lastli, .techskills li{
-  margin-bottom:1.5rem ;
+  margin-bottom:1rem ;
+}
+
+.name h1{
+  font-size: 4rem;
+  margin: 10rem 0 6rem 2rem;
+ 
+}
+
+.profile h3 {
+  margin-left: 2rem;
 }
 
